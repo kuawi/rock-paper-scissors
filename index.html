@@ -6,6 +6,30 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="start-screen">
+      <h1>Rock, paper, scissors!</h1>
+      <button type="button" class="start">Start</button>
+    </div>
+    <main>
+      <div class="portrait">your portrait</div>
+      <form>
+        <button type="button" class="choice player" value="rock">rock</button>
+        <button type="button" class="choice player" value="paper">paper</button>
+        <button type="button" class="choice player" value="scissors">scissors</button>
+      </form>
+      <form>
+        <button type="button" class="choice computer" value="rock">rock</button>
+        <button type="button" class="choice computer" value="paper">paper</button>
+        <button type="button" class="choice computer" value="scissors">scissors</button>
+      </form>
+      <div class="portrait">computer portrait</div>
+    </main>
+    <div class="end-screen">
+      <p>You Win!</p>
+      <p>You Lose!</p>
+      <p>Draw!</p>
+      <button type="button" class="try-again">Try again</button>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
